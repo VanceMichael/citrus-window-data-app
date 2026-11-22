@@ -1,0 +1,109 @@
+{
+  "tables": {
+    "orchards": [
+      "orchard",
+      "zone",
+      "brand_allowed",
+      "accessible",
+      "dry_kg",
+      "wet_kg"
+    ],
+    "samples": [
+      "sample",
+      "orchard",
+      "tree",
+      "day",
+      "known_day",
+      "brix",
+      "weather",
+      "weight"
+    ],
+    "boxes": [
+      "box",
+      "lot",
+      "orchard",
+      "kg",
+      "packed_day",
+      "measured_brix",
+      "grade",
+      "store"
+    ],
+    "cooling": [
+      "store",
+      "day",
+      "from",
+      "to",
+      "max_kg",
+      "max_temp_c",
+      "observed_max_c"
+    ],
+    "orders": [
+      "order",
+      "client",
+      "earliest",
+      "latest",
+      "kg",
+      "grade",
+      "brand",
+      "max_store_days",
+      "backup"
+    ],
+    "holds": [
+      "order",
+      "box",
+      "kg",
+      "from_day",
+      "state"
+    ],
+    "temperature": [
+      "store",
+      "day",
+      "reading_at",
+      "celsius",
+      "known_day"
+    ],
+    "grade-terms": [
+      "grade",
+      "min_brix",
+      "max_unqualified_fraction"
+    ]
+  },
+  "links": [
+    [
+      "boxes",
+      "orchard",
+      "orchards",
+      "orchard"
+    ],
+    [
+      "samples",
+      "orchard",
+      "orchards",
+      "orchard"
+    ],
+    [
+      "boxes",
+      "store",
+      "cooling",
+      "store"
+    ],
+    [
+      "temperature",
+      "store",
+      "cooling",
+      "store"
+    ],
+    [
+      "holds",
+      "box",
+      "boxes",
+      "box"
+    ],
+    [
+      "holds",
+      "order",
+      "orders",
+      "order"
+    ]
+  ]
+}

@@ -1,0 +1,5 @@
+orchard,zone,brand_allowed,accessible,dry_kg,wet_kg
+O1,A,true,road,1400,900
+O2,A,true,slope,900,350
+O3,B,false,road,1100,800
+O4,A,true,valley,1400,1200

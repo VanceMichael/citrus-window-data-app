@@ -1,0 +1,4 @@
+order,box,kg,from_day,state
+P1,B1,220,6,signed
+P2,B1,85,6,requested
+P1,B3,160,7,reserved

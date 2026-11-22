@@ -1,0 +1,6 @@
+box,lot,orchard,kg,packed_day,measured_brix,grade,store
+B1,L1,O1,220,6,11.6,A,C1
+B1,L1,O3,85,6,12.2,A,C1
+B2,L2,O2,120,6,10.2,B,C1
+B3,L3,O1,190,7,11.8,A,C2
+B4,L4,O4,210,8,,pending,C2

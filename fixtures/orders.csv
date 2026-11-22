@@ -1,0 +1,4 @@
+order,client,earliest,latest,kg,grade,brand,max_store_days,backup
+P1,M1,7,11,380,A,true,4,partial
+P2,M2,7,9,290,A,false,5,replace
+P3,M3,9,12,400,B,true,4,delay
