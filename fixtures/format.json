@@ -66,6 +66,16 @@
       "grade",
       "min_brix",
       "max_unqualified_fraction"
+    ],
+    "harvest-history": [
+      "inspection",
+      "orchard",
+      "day",
+      "weather",
+      "harvest_kg",
+      "grade_a_kg",
+      "grade_b_kg",
+      "known_day"
     ]
   },
   "links": [
@@ -104,6 +114,12 @@
       "order",
       "orders",
       "order"
+    ],
+    [
+      "harvest-history",
+      "orchard",
+      "orchards",
+      "orchard"
     ]
   ]
 }
