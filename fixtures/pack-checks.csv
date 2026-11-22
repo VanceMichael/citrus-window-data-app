@@ -1,0 +1,7 @@
+inspection,box,orchard,day,known_day,checked_kg,below_a_kg,below_b_kg
+C01,B1,O1,6,6,22,1.1,0
+C02,B1,O3,6,7,13,0.7,0
+C03,B2,O2,6,6,18,9.0,1.9
+C04,B3,O1,7,7,20,0.3,0
+C05,B4,O4,8,9,22,3.5,0.8
+C06,B1,O1,8,9,25,2.0,0.5

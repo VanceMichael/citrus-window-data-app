@@ -1,0 +1,3 @@
+statement,order,box,kg,issued_day,state,declared_zone
+Z1,P1,B1,220,6,signed,A
+Z2,P1,B3,160,7,reserved,A

@@ -1,0 +1,7 @@
+move,box,from_store,to_store,day,time,known_day,state
+M1,B1,,C1,6,10:10,6,complete
+M2,B1,C1,C2,7,17:00,7,planned
+M3,B1,C1,C2,8,08:20,8,complete
+M4,B2,,C1,6,11:00,6,complete
+M5,B3,,C2,7,10:10,7,complete
+M6,B4,,C2,8,09:45,8,complete

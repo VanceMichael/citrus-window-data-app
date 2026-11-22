@@ -76,6 +76,52 @@
       "grade_a_kg",
       "grade_b_kg",
       "known_day"
+    ],
+    "pack-checks": [
+      "inspection",
+      "box",
+      "orchard",
+      "day",
+      "known_day",
+      "checked_kg",
+      "below_a_kg",
+      "below_b_kg"
+    ],
+    "source-notices": [
+      "notice",
+      "box",
+      "lot",
+      "recorded_orchard",
+      "actual_orchard",
+      "kg",
+      "known_day"
+    ],
+    "brand-register": [
+      "statement",
+      "order",
+      "box",
+      "kg",
+      "issued_day",
+      "state",
+      "declared_zone"
+    ],
+    "cold-movements": [
+      "move",
+      "box",
+      "from_store",
+      "to_store",
+      "day",
+      "time",
+      "known_day",
+      "state"
+    ],
+    "field-access": [
+      "day",
+      "orchard",
+      "weather",
+      "from",
+      "to",
+      "known_day"
     ]
   },
   "links": [
@@ -117,6 +163,78 @@
     ],
     [
       "harvest-history",
+      "orchard",
+      "orchards",
+      "orchard"
+    ],
+    [
+      "pack-checks",
+      "box",
+      "boxes",
+      "box"
+    ],
+    [
+      "pack-checks",
+      "orchard",
+      "orchards",
+      "orchard"
+    ],
+    [
+      "source-notices",
+      "box",
+      "boxes",
+      "box"
+    ],
+    [
+      "source-notices",
+      "lot",
+      "boxes",
+      "lot"
+    ],
+    [
+      "source-notices",
+      "recorded_orchard",
+      "orchards",
+      "orchard"
+    ],
+    [
+      "source-notices",
+      "actual_orchard",
+      "orchards",
+      "orchard"
+    ],
+    [
+      "brand-register",
+      "order",
+      "orders",
+      "order"
+    ],
+    [
+      "brand-register",
+      "box",
+      "boxes",
+      "box"
+    ],
+    [
+      "cold-movements",
+      "box",
+      "boxes",
+      "box"
+    ],
+    [
+      "cold-movements",
+      "from_store",
+      "cooling",
+      "store"
+    ],
+    [
+      "cold-movements",
+      "to_store",
+      "cooling",
+      "store"
+    ],
+    [
+      "field-access",
       "orchard",
       "orchards",
       "orchard"
