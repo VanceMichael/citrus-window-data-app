@@ -1,0 +1,20 @@
+{
+  "plans": [
+    {
+      "name": "甲：第9天集中采 O1 入 C1",
+      "harvest": [{ "orchard": "O1", "day": 9, "kg": 400 }],
+      "transfers": [{ "kg": 400, "to": "C1", "day": 9 }]
+    },
+    {
+      "name": "乙：第8天采 O2、第9天采 O4，均入 C2",
+      "harvest": [
+        { "orchard": "O2", "day": 8, "kg": 150 },
+        { "orchard": "O4", "day": 9, "kg": 250 }
+      ],
+      "transfers": [
+        { "kg": 150, "to": "C2", "day": 8 },
+        { "kg": 250, "to": "C2", "day": 9 }
+      ]
+    }
+  ]
+}
